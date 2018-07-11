@@ -29,7 +29,7 @@ Exercises:
 
 Classes:
 
-- [p5.Oscillator(https://p5js.org/reference/#/p5.Oscillator)
+- [p5.Oscillator](https://p5js.org/reference/#/p5.Oscillator)
 - [p5.Env](https://p5js.org/reference/#/p5.Env)
 
 Exercises:
