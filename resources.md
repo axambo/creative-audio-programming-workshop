@@ -1,20 +1,18 @@
-# TODO!
+# JavaScript
 
-## JavaScript
-
-### Online Tutorials
+## Online Tutorials
 
 * [JavaScript basics](https://github.com/processing/p5.js/wiki/JavaScript-basics) - a quick intro to JavaScript
 
-### Books
+## Books
 
 * [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) - a great book
 
-## P5.js Sound Library
+# P5.js Sound Library
 
-### Video Tutorials
+## Video Tutorials
 
-#### p5.js Sound Tutorial by The Coding Train
+### p5.js Sound Tutorial by The Coding Train
 
 * [17.1: Loading and Playing](https://www.youtube.com/watch?v=Pn1g1wjxl_0)
 * [17.2: Play and Pause Button](https://www.youtube.com/watch?v=YcezEwOXun4)
@@ -28,7 +26,7 @@
 * [17.10: Sound Visualization: Radial Graph](https://www.youtube.com/watch?v=h_aTgOl9J5I)
 * [17.11: Sound Visualization: Frequency Analysis with FFT](https://www.youtube.com/watch?v=2O3nm0Nvbi4)
 
-## Resources for Exercises
+# Resources for Exercises
 
 * [Freesound](https://freesound.org/)
 * [ASCII Table](https://www.asciitable.com/)

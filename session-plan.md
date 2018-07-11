@@ -32,6 +32,8 @@ Classes:
 - [p5.Oscillator(https://p5js.org/reference/#/p5.Oscillator)
 - [p5.Env](https://p5js.org/reference/#/p5.Env)
 
+Exercises:
+
 - 11.30-11.45: 00_oscillator
 - 11:45-12:00: 01_ADSR: osc(amp), 02_ADSR_sound: env(sound)
 - 12:00-12:15: 03_note_envelope
