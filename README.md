@@ -8,4 +8,4 @@ This course is open to all students with interest in coding audio and visuals. T
 
 * [Technical requirements](reqs.md)
 * [Outline](outline.md)
-* [Session Plan](study-plan.md)
+* [Session Plan](session-plan.md)
