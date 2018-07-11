@@ -1,0 +1,7 @@
+
+// instantiation
+~a = MIRLCRep.new
+
+~a.content(1, 'dur', 1, 'scale', 'minor')
+~a.content(1, 'dur', 1, 'scale', 'minor')
+~a.content(4, 'dur', 1, 'scale', 'minor')
