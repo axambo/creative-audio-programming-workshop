@@ -6,7 +6,7 @@ This document details the time spent for each activity presented in the outline.
 
 - 9.30-9.40: Introductions (10’)
 - 9.40-9.50: Explanation workshop (Goal, TOC + structure of the course, learning outcomes, resources on GitHub, procedure, etc), link to downloadable zip file (10’)
-- 9.50-10.00: Setup: Context P5.js (within web design) + web dev environment (javascript, webaudio), quick tour on debugging: **TODO**: 00_debugging 
+- 9.50-10.00: Setup: Context P5.js (within web design) + web dev environment (javascript, webaudio), quick tour on debugging: 00_debuggingtest 
 
 ## SAMPLING: 1h 30’ (10.00-11.30)
 
