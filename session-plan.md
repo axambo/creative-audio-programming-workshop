@@ -41,9 +41,34 @@ Exercises:
 - 12:30-12:45: 05_AM_RM_FM_keyboard
 - 12:45-13:00: Challenge: collaborative performance picking either AM or FM from virtual keyboard
 
+# DAY 2
+
+## RECAP DAY 1
+
+## MACHINE LISTENING & VISUALIZATION
+
+What is machine listening?
+
+Classes:
+
+- [p5.Amplitude](https://p5js.org/reference/#/p5.Amplitude)
+- [p5.FFT](https://p5js.org/reference/#/p5.FFT)
+
+Exercises:
+
+- 00_amplitude
+- 01_measuring_amplitude
+- 02_noise_drum_envelope 
+- 03_frequency_spectrum
+- 04_waveform 
+- 05_waveform_2
+
+
 ## HACKING:
 
 - [Gibber.js](http://charlie-roberts.com/gibber/p5-gibber/) (p5.js)
 - [Tone.js](https://tonejs.github.io/) (JavaScript)
-
+- [Speech](http://ability.nyu.edu/p5.js-speech/) (p5.js)
+- [Wavesurfer.js](https://wavesurfer-js.org/) (JavaScript)
+- [Creating your own library](https://github.com/processing/p5.js/blob/master/developer_docs/creating_libraries.md)
 
