@@ -30,16 +30,18 @@ function draw() {
   var level = amplitude.getLevel();
   levelhistory.push(level);
   stroke(255);
-  noFill(); // for the vertex
+  //noFill(); // for the vertex
 
   for (var i = 0; i < levelhistory.length; i++) {
     var y = map(levelhistory[i], 0, 1, height, 0);
-    point(i, y); // convert the point to a vertex
-
+    beginShape();
+      vertex(i, y); // convert the point to a vertex
+    endShape();
   }
 
 
   if (levelhistory.length > width) {
+    levelhistory.splice(0, 1);
     //delete first element of the levelhistory so that it can move over time
   }
   //var size = map(level, 0, 1, 0, 400); 

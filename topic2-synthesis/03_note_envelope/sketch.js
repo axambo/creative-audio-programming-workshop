@@ -30,7 +30,7 @@ function setup() {
 
 function draw() {
   background(20);
-  //console.log("frameCount: " +frameCount);
+  console.log("frameCount: " +frameCount);
   if (frameCount % 30 == 0 || frameCount == 1) {
     var midiValue = scaleArray[note];
     console.log("midiValue: " +midiValue);

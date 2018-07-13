@@ -31,16 +31,18 @@ function draw() {
   levelhistory.push(level);
   stroke(255);
   noFill(); // for the vertex
-  beginShape();
+  
   for (var i = 0; i < levelhistory.length; i++) {
     var y = map(levelhistory[i], 0, 1, height, 0);
-    //point(i, y);
-    vertex(i, y);
-  }
-  endShape();
+    point(i, y);
+  //   beginShape();
+  //   vertex(i, y);
+  //     endShape();
+  // }
+
 
   if (levelhistory.length > width) {
-    levelhistory.splice(0,1);
+    levelhistory.splice(0, 1);
   }
   //var size = map(level, 0, 1, 0, 400); 
   //ellipse(width/2, height/2, size, size);

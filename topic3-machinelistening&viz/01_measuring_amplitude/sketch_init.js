@@ -5,7 +5,7 @@
 // Example adapted from: https://p5js.org/examples/sound-measuring-amplitude.html
 // Change plotting the amplitude of an audio sample to the amplitude of a mic input
 
-var song, analyzer;
+var song, analyzer, level;
 
 function preload() {
   song = loadSound('sounds/189790__jan-mussel__ubahn-berlin-atmo-mit-ansage-schlesisches-tor.wav');
@@ -26,7 +26,7 @@ function draw() {
   background(255);
 
   // Get the average (root mean square) amplitude
-  var rms = analyzer.getLevel();
+  level = analyzer.getLevel();
   var size = map(level, 0, 1, 0, 200);
   fill(0);
   stroke(0);
