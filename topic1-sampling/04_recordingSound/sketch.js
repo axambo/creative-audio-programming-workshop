@@ -32,14 +32,8 @@ function setup() {
 
 function keyPressed() {
 
-
-  if (keyCode === 82){
-        console.log("r");
-        state = 0; // play the result!     
-    }
-
   // make sure user enabled the mic
-  else if (state === 0 && mic.enabled) {
+  if (state === 0 && mic.enabled) {
 
     // record to our p5.SoundFile
     recorder.record(soundFile);
@@ -61,7 +55,8 @@ function keyPressed() {
 
   else if (state > 1) {
     soundFile.play(); // play the result!
-    console.log("saving file...");
+    console.log("playing sound...");
+    //console.log("saving file...");
     //save(soundFile, 'mySound.wav');
     state++;
   }

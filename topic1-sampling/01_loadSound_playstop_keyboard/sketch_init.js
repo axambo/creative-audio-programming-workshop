@@ -29,10 +29,10 @@ function loaded() {
 function keyPressed() {
   if (keyCode === UP_ARROW) {
     console.log("UP_ARROW: play");
-    // set play sound
+    sound.play();
   } else if (keyCode === DOWN_ARROW) {
     console.log("DOWN_ARROW: stop");
-    // set stop sound
+    sound.stop();
   } else if (keyCode === LEFT_ARROW) {
     console.log("LEFT_ARROW: reversed");
     // if the sound is in stop mode, it does not play reverse, how to avoid it?

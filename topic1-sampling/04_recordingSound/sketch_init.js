@@ -53,7 +53,7 @@ function keyPressed() {
     state++;
   }
 
-  else if (state > 1) {
+  else if (state === 2) {
     soundFile.play(); // play the result!
     console.log("saving file...");
     //save(soundFile, 'mySound.wav');
